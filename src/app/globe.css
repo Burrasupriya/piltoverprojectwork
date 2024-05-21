@@ -41,20 +41,33 @@ body {
 }
 
 .navbar nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  color: black;
   background-color: orange;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.navbar nav ul link button {
+  color: black;
+  background-color: orange;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
 }
 
 /* Style the Departments button */
 .navbar .dropdown span {
-  color: white;
-  cursor: pointer;
-  padding: 10px 20px;
-  border-radius: 5px;
+  color: black;
   background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 10px 20px;
 }
 
 /* Dropdown styles */
@@ -128,9 +141,9 @@ body {
   align-items: center;
   margin-top: 20px; /* Ensure the image starts below the navbar */
 }
-.hyd{
-  background-color: aquamarine;
-}
-.brm{
-  background-color: green;
+
+/* Adjust button hover effect */
+.navbar nav ul li a:hover,
+.navbar .dropdown span:hover {
+  background-color: darkorange;
 }

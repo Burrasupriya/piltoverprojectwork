@@ -1,5 +1,5 @@
 import Image from 'next/image'; // Import the Image component from next/image
-import '../globals.css'; // Import the globals.css file
+import '../globe.css'; // Import the globals.css file
 
 export default function Hyderabad() {
     return (
